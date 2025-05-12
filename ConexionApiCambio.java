@@ -13,7 +13,6 @@ public class ConexionApiCambio {
                     .uri(URI.create(direccionApiCambio))
                     .build();
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
-//            System.out.println(response.body());
 
             return response.body();
         } catch (Exception e) {
@@ -21,9 +20,5 @@ public class ConexionApiCambio {
             System.out.println("L21 - Error En catch ConexionApiCambio");
         }
         return null;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new ConexionApiCambio().ConectarApiCambio());
     }
 }
