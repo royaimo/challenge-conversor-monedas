@@ -20,7 +20,7 @@ public class UIConversorMonedas extends JFrame {
         return panelConversor;
     }
 
-    public static void main(String[] args) {
-        new UIConversorMonedas();
-    }
+//    public static void main(String[] args) {
+//        new UIConversorMonedas();
+//    }
 }

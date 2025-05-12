@@ -1,9 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="challenge-conversor-monedas:jar">
+  <artifact type="jar" build-on-make="true" name="challenge-conversor-monedas:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/challenge_conversor_monedas_jar</output-path>
     <root id="archive" name="challenge-conversor-monedas.jar">
       <element id="module-output" name="challenge-conversor-monedas" />
       <element id="extracted-dir" path="$PROJECT_DIR$/gson/gson-2.13.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/gson-2.13.1.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
